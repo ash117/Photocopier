@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Photocopier.Models.Copier>
+
+@{
+    ViewBag.Title = "Najem";
+}
+
+<div class="row">
+    @foreach (var copier in Model)
+    {
+        <div class="col-md-4">
+            <h2>@Html.ActionLink(@copier.Name, "Copier", "Home", new { id = copier.Id}, null)</h2>
+            <a href="@Url.Action("Copier", new { id = copier.Id})"><img class="imgBox" src="~/Content/src/@copier.Thumbnail" /></a>
+            <p>@copier.ShortDescription</p>
+            <p>od @String.Format("{0:c}", @copier.Price) + DDV</p>
+        </div>
+    }
+</div>

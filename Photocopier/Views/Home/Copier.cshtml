@@ -1,0 +1,24 @@
+﻿@model Photocopier.Models.Copier
+
+@{
+    ViewBag.Title = "Copier";
+}
+
+<h2>@Model.Name</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <img class="detailsImg" src="~/Content/src/@Model.ImgPath"/>
+    </div>
+    <div class="col-md-4">
+        <ul class="details">
+            @{
+                var lines = Model.Description.Split('#');
+                for (var i = 0; i < lines.Length; i++)
+                {
+                    <li>@lines[i]</li>
+                }
+            }
+        </ul>
+    </div>
+</div>

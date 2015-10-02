@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCopier xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Copier>
+    <Id>1</Id>
+    <Name>Canon iRC 3580i</Name>
+    <ShortDescription>bla ba ablias</ShortDescription>
+    <Description>long description</Description>
+    <Price>20</Price>
+    <ImgPath>~/Content/src/irc3580i.jpg</ImgPath>
+  </Copier>
+</ArrayOfCopier>
