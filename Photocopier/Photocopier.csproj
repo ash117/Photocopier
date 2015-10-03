@@ -171,17 +171,39 @@
     <Content Include="App_Data\Copiers.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\src\bullet-red-circle.png" />
-    <Content Include="Content\src\Canon-Color-imageRUNNER-Advance-C5030_big.jpg" />
-    <Content Include="Content\src\Canon-Color-imageRUNNER-Advance-C5051_big.jpg" />
-    <Content Include="Content\src\canon-iR-ADV-C5030i_1.jpg" />
-    <Content Include="Content\src\canon.png" />
-    <Content Include="Content\src\canon_adc_5045i.jpg" />
-    <Content Include="Content\src\Canon_iRC_3580I_big.jpg" />
-    <Content Include="Content\src\irc3080.jpg" />
-    <Content Include="Content\src\irc3580i.jpg" />
+    <Content Include="Content\bootstrap.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap.min.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\src\bullet-red-circle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\src\Canon-Color-imageRUNNER-Advance-C5030_big.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\src\Canon-Color-imageRUNNER-Advance-C5051_big.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\src\canon-iR-ADV-C5030i_1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\src\canon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\src\canon_adc_5045i.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\src\Canon_iRC_3580I_big.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\src\irc3080.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\src\irc3580i.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
