@@ -24,7 +24,7 @@ namespace Photocopier
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/bundles/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/bootstrap.*",
                       "~/Content/site.css"));
         }
     }

@@ -171,9 +171,7 @@
     <Content Include="App_Data\Copiers.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Content\bootstrap.css">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\src\bullet-red-circle.png" />
     <Content Include="Content\src\Canon-Color-imageRUNNER-Advance-C5030_big.jpg" />
