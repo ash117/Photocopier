@@ -173,6 +173,7 @@
     </Content>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\src\bullet-red-circle.png" />
     <Content Include="Content\src\Canon-Color-imageRUNNER-Advance-C5030_big.jpg" />
     <Content Include="Content\src\Canon-Color-imageRUNNER-Advance-C5051_big.jpg" />
     <Content Include="Content\src\canon-iR-ADV-C5030i_1.jpg" />

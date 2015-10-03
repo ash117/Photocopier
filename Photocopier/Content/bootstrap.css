@@ -335,20 +335,8 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  color: black;
   text-decoration: none;
-}
-
-a:hover,
-a:focus {
-  color: #2a6496;
-  text-decoration: underline;
-}
-
-a:focus {
-  outline: thin dotted #333;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
 }
 
 img {
@@ -4944,7 +4932,7 @@ a.list-group-item.active > .badge,
 }
 
 .jumbotronBack {
-    background-image: url(src/irc3080.jpg);
+    background-image: url(/Content/src/irc3080.jpg);
     background-repeat: no-repeat;
     background-position: right;
     background-origin: content-box;
@@ -4976,15 +4964,19 @@ a.list-group-item.active > .badge,
 
 img.detailsImg {
     height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 ul.details {
     font-size: 125%;
 }
-ul {
-    color: red;
-}
-li {
-    color: black;
+
+ul.details li {
+    background: url(/Content/src/bullet-red-circle.png) 0 10px no-repeat;
+    padding-left: 15px;
+    list-style: none;
+    background-size: 10px
 }
 
 ent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, trnsparent);
