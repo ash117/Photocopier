@@ -4931,13 +4931,14 @@ a.list-group-item.active > .badge,
   color: inherit;
 }
 
-.jumbotronBack {
-    background-image: url(/Content/src/irc3080.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-origin: content-box;
+.jumbotron h1 {
+  line-height: 1;
+  color: inherit;
 }
 
+.jumbotron p {
+  line-height: 1.4;
+}
 .JumbotronImage {
     display: block;
     margin-left: auto;
@@ -4947,15 +4948,13 @@ a.list-group-item.active > .badge,
 .jumbotronSpan {
       font-weight: bold;
   }
-.jumbotron h1 {
-  line-height: 1;
-  color: inherit;
-}
 
-.jumbotron p {
-  line-height: 1.4;
+.jumbotronBack {
+    background-image: url(/Content/src/irc3080.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: content-box;
 }
-
 .contact {
     display: table;
     margin-left: auto;
