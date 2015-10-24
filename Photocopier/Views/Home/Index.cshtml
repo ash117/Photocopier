@@ -2,7 +2,6 @@
 @model IEnumerable<Photocopier.Models.Copier>
 
 
-
 <div class="row">
     @foreach (var copier in Model)
     {
@@ -10,9 +9,12 @@
             <h2>@Html.ActionLink(@copier.Name, "Copier", "Home", new {id = copier.Id}, null)</h2>
             <a href="@Url.Action("Copier", new {id = copier.Id})"><img class="imgBox" src="~/Content/src/@copier.Thumbnail"/></a>
             <p>@copier.ShortDescription</p>
-            <p>od @String.Format("{0:0.00}", @copier.Price) € + DDV</p>
+            <p>od @String.Format("{0:0.00}", @copier.Price) € + DDV <br/><span class="ind">Brezplačna uporaba skenerja</span></p>
         </div>
     }
 </div>
 <br/>
-<p class="lead">Nad <span class="jumbotronSpan">4000</span> črno belih ali <span class="jumbotronSpan">1000</span> barvnih izpisov oziroma nad <span class="jumbotronSpan">100€</span> skupnega seštevka se najem ne zaračunava</p>
+<p class="lead">Nad <span class="jumbotronSpan">4000</span> črno belih ali <span class="jumbotronSpan">1000</span> barvnih izpisov oziroma nad <span class="jumbotronSpan">100€</span> skupnega seštevka se najem ne zaračunava<br/>
+    Cena ČB izpisa je <span class="jumbotronSpan">0.01€</span> barvnega pa <span class="jumbotronSpan">0.06€</span> + DDV<br/>
+    Možni dodatni popusti ob večji količini izpisov, po predhodnem dogovoru
+</p>

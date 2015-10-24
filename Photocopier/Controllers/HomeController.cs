@@ -18,8 +18,8 @@ namespace Photocopier.Controllers
 
             return View(repo.All());
         }
-        
-        public ActionResult Contact()
+
+        public ActionResult RentTerms()
         {
             return View();
         }
@@ -31,7 +31,7 @@ namespace Photocopier.Controllers
             return View(repo.Find(x => x.Id == id));
         }
 
-        public ActionResult Rent()
+        public ActionResult Contact()
         {
             return View();
         }

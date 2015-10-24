@@ -239,6 +239,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Home\Copier.cshtml" />
+    <Content Include="Views\Home\RentTerms.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

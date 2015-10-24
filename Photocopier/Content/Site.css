@@ -25,3 +25,8 @@ textarea {
 .lead {
     text-align: center;
 }
+
+.ind {
+    color: red;
+    font-weight: bold;
+}
