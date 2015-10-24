@@ -30,5 +30,10 @@ namespace Photocopier.Controllers
             
             return View(repo.Find(x => x.Id == id));
         }
+
+        public ActionResult Rent()
+        {
+            return View();
+        }
     }
 }

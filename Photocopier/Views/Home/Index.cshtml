@@ -1,18 +1,18 @@
 ﻿@using System.Globalization
 @model IEnumerable<Photocopier.Models.Copier>
 
-@{
-    ViewBag.Title = "Najem";
-}
+
 
 <div class="row">
     @foreach (var copier in Model)
     {
         <div class="col-md-4">
-            <h2>@Html.ActionLink(@copier.Name, "Copier", "Home", new { id = copier.Id}, null)</h2>
-            <a href="@Url.Action("Copier", new { id = copier.Id})"><img class="imgBox" src="~/Content/src/@copier.Thumbnail" /></a>
+            <h2>@Html.ActionLink(@copier.Name, "Copier", "Home", new {id = copier.Id}, null)</h2>
+            <a href="@Url.Action("Copier", new {id = copier.Id})"><img class="imgBox" src="~/Content/src/@copier.Thumbnail"/></a>
             <p>@copier.ShortDescription</p>
             <p>od @String.Format("{0:0.00}", @copier.Price) € + DDV</p>
         </div>
     }
 </div>
+<br/>
+<p class="lead">Nad <span class="jumbotronSpan">4000</span> črno belih ali <span class="jumbotronSpan">1000</span> barvnih izpisov oziroma nad <span class="jumbotronSpan">100€</span> skupnega seštevka se najem ne zaračunava</p>

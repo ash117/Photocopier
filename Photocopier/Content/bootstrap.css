@@ -4934,6 +4934,10 @@ a.list-group-item.active > .badge,
 .jumbotron h1 {
   line-height: 1;
   color: inherit;
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 200%;
+    text-align: center;
 }
 
 .jumbotron p {
@@ -4950,7 +4954,7 @@ a.list-group-item.active > .badge,
   }
 
 .jumbotronBack {
-    background-image: url(/Content/src/irc3080.jpg);
+    background-image: url(/Content/src/c5000_angl.jpg);
     background-repeat: no-repeat;
     background-position: right;
     background-origin: content-box;
